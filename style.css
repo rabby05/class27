@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container_X{
+    width: 1300px;
+    margin: auto;
+}
+/* ===================================*/
+/* Header Sectoin  */
+/* =================================== */
+.header_section{
+    background: #22c3a3;
+    padding: 40px;
+}
+.header_logo{
+    float: left;
+    margin-top: -18px;
+}
+.header_logo a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+}
+.header_menu {
+	float: right;
+	margin-top: -18px;
+}
+.header_menu ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+.header_menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.897);
+    transition: all .3s;
+
+}
+.header_menu ul li a:hover{
+    color: #fff;
+}
+/* ===================================*/
+/* Banner Sectoin  */
+/* =================================== */
+.banner_section {
+	background-image: url(https://i.ibb.co/NgRv4SG/header-bg01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -33px;
+	padding: 255px 0;
+}
+.banner_item{
+    text-align: center;
+}
+.banner_text h1 {
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 20px;
+}
+.banner_text h4 {
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 50px;
+    
+}
+.banner_item a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-family: sans-serif;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: all .5s;
+}
+.banner_item a:hover{
+    background: #1e917a;
+}
+/* ===================================*/
+/* Service Sectoin  */
+/* =================================== */
+.servive_section{
+    padding: 70px 0;
+    border-bottom:2px solid  #00b890;
+}
+.service_title{
+    text-align: center;
+}
+.service_title h2{
+    margin-bottom: 20px;
+    font-size:35px;
+    color: rgba(17, 17, 17, 0.753);
+    /* ................................................. */
+    
+}
+.service_title p{
+    font-size: 16px;
+    color:#888888;
+    font-family: sans-serif;
+}
+/* ................................................. */
+.service_card{
+    padding: 140px  0;
+    margin-bottom: 140px;
+    text-align: center;
+}
+.card_item{
+    float: left;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-left: 4%;
+}
+.card_item span i {
+	font-size: 40px;
+	color: #25c5a5;
+	margin-bottom: 30px;
+    
+}
+.card_item h2{
+    margin-bottom: 10px;
+    color: rgba(17, 17, 17, 0.753);
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.card_item p {
+	font-size: 16px;
+	color: #8a8888;
+	font-family: sans-serif;
+	line-height: 21px;
+}
+/* ===================================*/
+/* About  Sectoin  */
+/* =================================== */
+.about_Section{
+    padding: 60px 0;
+    text-align: center;
+}
+.about_item{
+    display: inline-block;
+}
+.about_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about_title h2{
+    margin-bottom: 20px;
+    font-size:35px;
+    color: rgba(17, 17, 17, 0.753);
+}
+.about_title p{
+    font-size: 16px;
+    color:#888888;
+    font-family: sans-serif;
+}
+.about_img{
+    width: 40%;
+    display:inline-block;
+    font-family: sans-serif;
+    text-align: left;
+}
+.about_img img{
+    max-width:100% ;
+}
+.about_text {
+	font-family: sans-serif;
+	text-align: left;
+	display: inline-block;
+	width: 45%;
+	top: -55px;
+	position: relative;
+}
+.about_text h2 {
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 12px;
+    color:#686767;
+}
+.about_text p{
+    margin-bottom: 20px;
+    color:#888888;
+}
+/* ===================================*/
+/* Contact  Sectoin  */
+/* =================================== */
+.contact_section{
+    background:#f6f6f6 ;
+    padding: 80px 0;
+}
+.contact_item{
+    text-align: center;
+}
+.contact_info{
+    margin-bottom: 170px;
+}
+.contact_info span{
+    font-size: 20px;
+    color: #38c9ab;
+    margin-bottom: 10px;
+    display: block;
+}
+.contact_title h2{
+    margin-bottom: 30px;
+    font-size:35px;
+    color: rgba(17, 17, 17, 0.753);
+}
+.contact_title p{
+    font-size: 16px;
+    color:#888888;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+}
+.contact_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact_area{
+    float: left;
+    width: 33.3%;
+}
+.contact_area p {
+	margin-left: 10px;
+	display: block;
+    font-family: sans-serif;
+    color:#888888;
+    margin-bottom: 5px;
+    
+}
+.contact_email{
+    float: left;
+    width: 33.3%;
+}
+.contact_email p{
+	font-family: sans-serif;
+    color:#888888;
+    display: block;
+}
+.contact_call{
+    float: right;
+    width: 33.3%;
+}
+.contact_call p{
+    font-family: sans-serif;
+    color:#888888;
+    margin-bottom: 5px;
+    display: block;
+}
+/* ===================================*/
+/* Icon  Sectoin  */
+/* =================================== */
+.icon_section{
+    background: #38c9ab;
+    padding: 30px 0;
+}
+.icon_item{
+    text-align: center;
+    display: block;
+}
+.icon_item ul li{
+    list-style: none;
+    display: inline-block;
+}
+.icon_item ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+    transition: all .6s;
+}
+.icon_item ul li a:hover{
+    color: blue;
+}
+/* ===================================*/
+/* Footer  Sectoin  */
+/* =================================== */
+.footer_scetoin{
+    background: #222222;
+    padding: 30px 0;
+}
+.footer_item{
+    text-align: center;
+}
+.footer_item p{
+    color: rgb(146, 141, 141);
+    font-size: 20px;
+    font-family: sans-serif;
+}
